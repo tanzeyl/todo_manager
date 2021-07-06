@@ -110,11 +110,10 @@ body {
   height: 16px;
 }
 
-.TodoItem-overdue {
+.TodoItem-duedate {
+  font-size: 10px;
+  color: rgba(103, 89, 123);
   margin-left: 10px;
-  color: #c53030;
-  font-size: 12px;
-  display: inline;
 }
 
 .TodoItem-delete {
