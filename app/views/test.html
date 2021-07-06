@@ -1,0 +1,99 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="myapp.css">
+	  <meta name="viewport" content="width=device-width" initial-scale=1>
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <main class="page-main">
+      <article>
+        <h1 class="title"> My To-do List</h1>
+        <section class="AddTodo">
+          <input class="AddTodo-text" type="text" placeholder="What's next?">
+          <input class="AddTodo-date" type="date">
+          <input class="AddTodo-button" type="button" value="Add">
+        </section>
+
+        <section class="TodoSection">
+          <div class="TodoSection-title">
+            <p class="TodoSectionTitle-text">Due Today</p>
+            <p class="TodoSectionTitle-remainingCount">0/4</p>
+          </div>
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Submit SaaS 201 Project
+                <p class="TodoItem-overdue">Overdue</p>
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Call Accountant
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="TodoSection">
+          <div class="TodoSection-title">
+            <p class="TodoSectionTitle-text">Due Tomorrow</p>
+            <p class="TodoSectionTitle-remainingCount">0/3</p>
+          </div>
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Type Something
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+          </ul>
+        </section>
+
+        <section class="TodoSection">
+          <div class="TodoSection-title">
+            <p class="TodoSectionTitle-text">Remaining</p>
+            <p class="TodoSectionTitle-remainingCount">0/3</p>
+          </div>
+          <ul>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Type Something
+                <p class="TodoItem-date">Jan 21</p>
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Type Something
+                <p class="TodoItem-date">Jan 22</p>
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+            <li class="TodoItem">
+              <label class="TodoItem-container">
+                <input class="TodoItem-checkbox" type="checkbox">
+                Type Something
+                <p class="TodoItem-date">Jan 23</p>
+                <a class="TodoItem-delete" href="javascript:void(0)"><img src="trashcan.svg"></a>
+            </label>
+            </li>
+          </ul>
+        </section>
+    </article>
+</main>
+  </body>
+</html>

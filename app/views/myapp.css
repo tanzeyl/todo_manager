@@ -1,0 +1,135 @@
+body {
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 32px auto;
+  background-image: url("sideimg.jpg");
+}
+
+.page-main {
+  display: flex;
+}
+
+.AddTodo {
+  display: flex;
+  height: 32px;
+  align-items: left;
+  margin-bottom: 24px;
+}
+
+.AddTodo-text {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #453c52;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #bfb8cc;
+}
+
+.AddTodo-date {
+  padding: 6px;
+  font-size: 14px;
+  color: #453c52;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #bfb8cc;
+}
+
+.AddTodo-button {
+  font-size: 14px;
+  color: white;
+  background-color: #48bb78;
+  border: 1px solid transparent;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1.6;
+  color: #453c52;
+}
+
+.sub-heading {
+  font-size: 34px;
+  line-height: 1.4;
+  color: #453c52;
+}
+
+.content {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: 32px;
+  color: #453c52;
+}
+
+.TodoSection {
+  margin-bottom: 2opx;
+}
+
+.TodoSection-title {
+  display: flex;
+  color: #453c52;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.TodoSectionTitle-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px;
+  line-height: 1.4;
+}
+
+.TodoSectionTitle-remainingCount {
+  font-size: 12px;
+}
+
+.TodoItem {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 6px;
+  color: #453c52;
+}
+
+.TodoItem-container {
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+}
+
+.TodoItem-container:hover {
+  background-color: #f1edf7;
+}
+
+.TodoItem-container:hover .TodoItem-delete {
+  visibility: visible;
+}
+
+.TodoItem-checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.TodoItem-overdue {
+  margin-left: 10px;
+  color: #c53030;
+  font-size: 12px;
+  display: inline;
+}
+
+.TodoItem-delete {
+  visibility: hidden;
+  margin-left: 8px;
+}
+
+.TodoItem-delete > img {
+  width: 16px;
+}
+
+.TodoItem-date {
+  font-family: OpenSans;
+  font-size: 12px;
+  color: #726a7e;
+  letter-spacing: 0.09px;
+  margin-left: 10px;
+}
