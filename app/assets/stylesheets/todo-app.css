@@ -2,10 +2,7 @@ body {
   font-family: sans-serif;
   max-width: 600px;
   margin: 32px auto;
-  background-image: url("../images/back2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: linear-gradient(#DE6262, #FFB88C);
 }
 
 .page-main {
@@ -77,7 +74,7 @@ body {
 }
 
 .TodoSectionTitle-text {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   margin: 8px;
   line-height: 1.4;
@@ -88,10 +85,11 @@ body {
 }
 
 .TodoItem {
-  font-size: 14px;
+  font-size: 15px;
   margin-left: 8px;
   margin-bottom: 6px;
   color: #453c52;
+  align-items: center;
 }
 
 .TodoItem-container {
@@ -114,8 +112,8 @@ body {
 }
 
 .TodoItem-duedate {
-  font-size: 10px;
-  color: #67597B;
+  font-size: 12px;
+  color: #67597b;
   margin-left: 10px;
 }
 
@@ -142,4 +140,19 @@ footer {
   color: #9d9d9d;
   bottom: 0;
   width: 100%;
+}
+
+.TodoItem-text {
+  font-size: 16px;
+  color: #453c52;
+  letter-spacing: 0.1px;
+  margin-left: 10px;
+}
+
+.TodoItem-completed {
+  text-decoration: line-through;
+}
+
+ul {
+  align-items: center;
 }

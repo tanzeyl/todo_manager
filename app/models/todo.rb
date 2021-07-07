@@ -38,4 +38,8 @@ class Todo < ActiveRecord::Base
     all.where(completed: true)
   end
 
+  def self.is_completed
+    self.completed
+  end
+
 end

@@ -9,7 +9,7 @@
 
         <%= render partial: "todos-section", locals: {
           section_title: "Overdue",
-          todos: Todo.overdue,
+          todos: Todo.overdue.where(completed: false),
           show_date: true
           } %>
         <%= render partial: "todos-section", locals: {
