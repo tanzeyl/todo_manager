@@ -1,7 +1,3 @@
-class User < ActiveRecord::Base
-
-  def to_pleasant_string
-    "#{id}. #{first_name}. #{last_name} #{email}. #{password} "
-  end
-
+class User < ApplicationRecord
+  has_many :todos
 end
