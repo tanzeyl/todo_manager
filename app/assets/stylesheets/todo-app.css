@@ -2,7 +2,10 @@ body {
   font-family: sans-serif;
   max-width: 600px;
   margin: 32px auto;
-  background-image: url("sideimg.jpg");
+  background-image: url("../images/back2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .page-main {
@@ -131,4 +134,12 @@ body {
   color: #726a7e;
   letter-spacing: 0.09px;
   margin-left: 10px;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
 }
