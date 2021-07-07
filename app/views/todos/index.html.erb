@@ -1,12 +1,11 @@
 <main class="page-main">
       <article>
         <h1 class="title"> My To-do List</h1>
-        <form class="AddTodo" action="/todos" method="POST">
+        <%= form_with(url: "/todos", method: "post", class: "AddTodo")  do %>
           <input class="AddTodo-text" type="text" name="todo_text" placeholder="What's next?">
           <input class="AddTodo-date" name="due_date"type="date">
           <input class="AddTodo-button" type="submit" value="Add">
-        </form>
-
+        <% end %>
         <%= render partial: "todos-section", locals: {
           section_title: "Overdue",
           todos: Todo.overdue.where(completed: false),
