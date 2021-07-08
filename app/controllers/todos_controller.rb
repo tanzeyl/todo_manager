@@ -23,7 +23,7 @@ class TodosController < ApplicationController
     completed = params[:completed]
     todo = Todo.find(id)
     todo.completed = completed
-    todo.save!
+    todo.save
     redirect_to todos_path
   end
 

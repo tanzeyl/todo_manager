@@ -1,5 +1,5 @@
 class Todo < ApplicationRecord
-  belongs_to :users
+  belongs_to :user
 
   def to_pleasant_string
     is_completed = completed ? "[X]" : "[ ]"
