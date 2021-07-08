@@ -20,6 +20,9 @@
 	<%= link_to "Sign Out", destroy_session_path, method: "delete" %>
 	</p>
 	<% end %>
+	<% if flash[:error] %>
+		<p class="FlashError"><%= flash[:error] %></p>
+	<% end %>
   <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
