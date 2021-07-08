@@ -1,11 +1,13 @@
 .HomeTitle {
-  font-size: 20px;
+  font-size:35px;
   margin-bottom: 30px;
+  font-style: oblique;
 }
 
 .HomeAuthenticate {
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 20px;
+  font-style: inherit;
 }
 
 .UserHeader {
@@ -21,4 +23,23 @@
   font-size: 25px;
   font-style: bold;
   color: darkred;
+}
+
+
+#banner-img {
+	padding-top: 75px;
+ 	padding-bottom: 50px;
+ 	text-align: center;
+ 	color: #f8f8f8;
+ 	height: 700px;
+}
+
+#banner-content {
+	position: relative;
+	margin-right: 50%;
+  padding-top: 6%;
+	padding-bottom: 6%;
+	margin-bottom: 12%;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 660px;
 }
