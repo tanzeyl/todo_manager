@@ -11,6 +11,8 @@
 .UserHeader {
   padding: 10px;
   background-color: lavender;
-  font-size: 14px;
+  font-size: 25px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
