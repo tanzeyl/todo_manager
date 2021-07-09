@@ -1,10 +1,13 @@
 .UsersNew-title {
   margin-bottom: 40px;
   font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
 }
 
 .FormSection {
   margin-bottom: 30px;
+  font-family: 'Cinzel', serif;
 }
 
 .Form-Input {
@@ -17,12 +20,15 @@
   font-size: 20px;
   color: #555555;
   margin-bottom: 8px;
+  color:  #666699;
 }
 
 .FormSubmit {
   font-size: 20px;
   padding: 10px;
-  background: #0EA86D20;
+  background: pink;
+  font-weight: bolder;
   border: 1px solid transparent;
   border-radius: 4px;
+  color: black;
 }

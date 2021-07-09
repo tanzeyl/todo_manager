@@ -1,22 +1,26 @@
 .HomeTitle {
   font-size:35px;
   margin-bottom: 30px;
-  font-style: oblique;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
 }
 
 .HomeAuthenticate {
   font-size: 25px;
   margin-bottom: 20px;
   font-style: inherit;
+  font-family: 'Cinzel', serif;
 }
 
 .UserHeader {
   padding: 10px;
-  background-color: lavender;
+  background-color: white;
   font-size: 25px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
+  font-family: 'Cormorant Garamond', serif;
+  border-radius: 8px;
 }
 
 .FlashError {
@@ -36,10 +40,9 @@
 
 #banner-content {
 	position: relative;
-	margin-right: 50%;
-  padding-top: 6%;
+	padding-top: 6%;
 	padding-bottom: 6%;
-	margin-bottom: 12%;
+  margin-left: 15%;
 	background-color: rgba(0, 0, 0, 0.7);
 	max-width: 660px;
 }
