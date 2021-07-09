@@ -42,7 +42,8 @@
 	position: relative;
 	padding-top: 6%;
 	padding-bottom: 6%;
-  margin-left: 10%;
+  margin-left: 8%;
+  justify-content: center;
 	background-color: rgba(0, 0, 0, 0.7);
 	max-width: 660px;
 }
